@@ -41,7 +41,7 @@ from copy import deepcopy
 from avalanche.training.plugins import StrategyPlugin
 
 
-
+# modified from: https://github.com/ContinualAI/avalanche/blob/e91183e6fee8ccfdcde79f674e0c427f72bb9e8c/avalanche/training/plugins/early_stopping.py
 class EarlyStoppingPlugin(StrategyPlugin):
     """Early stopping and model checkpoint plugin.
     The plugin checks a metric and stops the training loop when the accuracy
